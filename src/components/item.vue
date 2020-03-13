@@ -1,5 +1,5 @@
 <template>
-  <div class="item"  :vid="item.id">{{item.value}}</div>
+  <div class="item">{{item.id}}-{{item.value}}</div>
 </template>
 <script>
 export default {
@@ -11,7 +11,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .item{
-  height:40px;
-  border:1px solid lightBlue;
+  border: 1px solid lightblue;
+  padding: 20px 0;
 }
 </style>
